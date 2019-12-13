@@ -13,7 +13,6 @@ __maintainer__ = "Jeroen Arnoldus"
 __email__ = "jeroen@repleo.nl"
 __status__ = "Production"
 
-
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "bounca.settings")
 
 application = get_wsgi_application()
